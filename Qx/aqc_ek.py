@@ -1,7 +1,5 @@
-#爱企查京东e卡库存监控，只写了tg推送，改一下第10，11行的内容即可
-#不要问cron怎么写，自己看自己机器决定，再问就是* * * * * *
-#from requests import get, post
-#from random import choice
+from requests import get, post
+from random import choice
 def get_ua(brower_name):
     url = 'https://raw.githubusercontent.com/limoruirui/misaka/master/user-agent.json'
     useragent = choice(get(url).json()[brower_name])
