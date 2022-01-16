@@ -56,9 +56,9 @@
 		  "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
 		}],
 		"repo": "https://gitee.com/tom210120/tom/raw/master/SJB/sjb.js",
-		"icons": ["https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg", "https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg"],
+		"icons": ["https://raw.githubusercontent.com/Heanyi11/script/main/sjb/xsk.PNG", "https://raw.githubusercontent.com/Heanyi11/script/main/sjb/xsk.PNG"],
 		"script": "https://gitee.com/tom210120/tom/raw/master/SJB/sjb.js",
-		"icon": "https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg",
+		"icon": "https://raw.githubusercontent.com/Heanyi11/script/main/sjb/xsk.PNG",
 		"favIcon": "mdi-star-outline",
 		"favIconColor": "grey",
 		"datas": [{
