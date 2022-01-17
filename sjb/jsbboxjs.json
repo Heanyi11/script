@@ -1,64 +1,157 @@
 {
-    "name": "睡觉宝应用订阅", 
-    "apps": [
-      {
-		"id": "sjb",
-		"name": "睡觉宝",
-		"keys": ["sjbheader","sjbheader2","sjbheader3","sjbheader4","sjbheader5","sjbheader6","sjbheader7","sjbheader8","sjbheader9","sjbheader10","sjbheader11","sjbheader12","sjbheader13","sjbheader14","sjbheader15","sjbheader16","sjbheader17","sjbheader18","sjbheader19","sjbheader20"],
-		"author": "@tom",
+"id": "shitou12.app.sub",
+"name": "自用脚本订阅",
+"author": "@shitou12",
+"icon": "https://avatars3.githubusercontent.com/u/52337422?s=460&u=0aa6057c2af304d742d20b3b865c34f2902ad5c1&v=4",
+"repo": "https://github.com/shitou12",
+	"apps": [{
+		"id": "sqxs&speed",
+		"name": "书旗小说&极速",
+		"keys": [
+			"readck1",
+			"read2ck1",
+			"user2infock1",
+			"receivecoinck1",
+			"videogoldprizeck1",
+			"videodrawprizeck1",
+			"drawck1",
+			"userinfock1",
+			"videogold2prizeck1",
+			"videogold3prizeck1",		
+
+			"readck2",
+			"read2ck2",
+			"user2infock2",			
+			"receivecoinck2",
+			"videogoldprizeck2",
+			"videodrawprizeck2",
+			"drawck2",
+			"userinfock2",
+			"videogold2prizeck2",
+			"videogold3prizeck2",
+
+			"readck3",
+			"read2ck3",
+			"user2infock4",	
+			"receivecoinck3",
+			"videogoldprizeck3",
+			"videodrawprizeck3",
+			"drawck3",
+			"userinfock3",
+			"videogold2prizeck3",
+			"videogold3prizeck3",
+      
+			"readck4",
+			"read2ck4",
+			"user2infock4",	
+			"receivecoinck4",
+			"videogoldprizeck4",
+			"videodrawprizeck4",
+			"drawck4",
+			"userinfock4",
+			"videogold2prizeck4",
+			"videogold3prizeck4",
+
+			"readck5",
+			"read2ck5",
+			"user2infock5",	
+			"receivecoinck5",
+			"videogoldprizeck5",
+			"videodrawprizeck5",
+			"drawck5",
+			"userinfock5",
+			"videogold2prizeck5",
+			"videogold3prizeck5",
+
+			"readck6",
+			"read2ck6",
+			"user2infock6",	
+			"receivecoinck6",
+			"videogoldprizeck6",
+			"videodrawprizeck6",
+			"drawck6",
+			"userinfock6",
+			"videogold2prizeck6",
+			"videogold3prizeck6"
+		],
+		"author": "@shitou12",
 		"settings": [{
-		  "id": "sjbSuffix",
-		  "name": "当前账号",
-		  "val": "1",
-		  "type": "number",
-		  "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+			"id": "sqxs",
+			"name": "当前账号",
+			"val": "1",
+			"type": "number",
+			"desc": "当前抓取ck记录的账号序号，如：1、2、4、"
 		}, {
-		  "id": "sjbCount",
-		  "name": "账号个数",
-		  "val": "20",
-		  "type": "number",
-		  "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-		}, {
-		  "id": "sjbXH",
-		  "name": "循环获取ck",
-		  "val": "0",
-		  "type": "number",
-		  "desc": "0关闭，1打开，默认关闭"
-		}, {
-		  "id": "sjbTXTX",
-		  "name": "txtx",
-		  "val": "0",
-		  "type": "number",
-		  "desc": "0关闭，1打开，默认关闭"
-		}, {
-		  "id": "sjbSC",
-		  "name": "sc",
-		  "val": "0",
-		  "type": "number",
-		  "desc": "0关闭，1打开，默认关闭"
-		}, {
-		  "id": "sjbnotifyttt",
-		  "name": "推送控制",
-		  "val": "1",
-		  "type": "number",
-		  "desc": "0关闭，1推送,默认12点以及23点推送"
-		}, {
-		  "id": "sjbnotifyInterval",
-		  "name": "通知控制",
-		  "val": "2",
-		  "type": "number",
-		  "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
-		}, {
-		  "id": "sjbMinutes",
-		  "name": "推送-通知 分钟控制",
-		  "val": "10",
-		  "type": "number",
-		  "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+			"id": "CountNumber",
+			"name": "账号个数",
+			"val": "1",
+			"type": "number",
+			"desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
 		}],
-		"repo": "https://gitee.com/tom210120/tom/raw/master/SJB/sjb.js",
-		"icons": ["https://raw.githubusercontent.com/Heanyi11/script/main/sjb/xsk.PNG", "https://raw.githubusercontent.com/Heanyi11/script/main/sjb/xsk.PNG"],
-		"script": "https://gitee.com/tom210120/tom/raw/master/SJB/sjb.js",
-		"icon": "https://raw.githubusercontent.com/Heanyi11/script/main/sjb/xsk.PNG",
-	
-       } ]
-  }
+		"repo": "https://raw.githubusercontent.com/shitou12/Scripts-1/master/sqxs.js",
+		"icons": [
+			"https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi.png",
+			"https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi.png"
+		],
+		"script": "https://raw.githubusercontent.com/shitou12/Scripts-1/master/sjb.js"
+	},{
+    "id": "sjb",
+    "name": "睡觉宝",
+    "keys": ["sjbheader","sjbheader2","sjbheader3","sjbheader4","sjbheader5","sjbheader6","sjbheader7","sjbheader8","sjbheader9","sjbheader10","sjbheader11","sjbheader12","sjbheader13","sjbheader14","sjbheader15","sjbheader16","sjbheader17","sjbheader18","sjbheader19","sjbheader20"],
+    "author": "@tom",
+    "settings": [{
+      "id": "sjbSuffix",
+      "name": "当前账号",
+      "val": "1",
+      "type": "number",
+      "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    }, {
+      "id": "sjbCount",
+      "name": "账号个数",
+      "val": "1",
+      "type": "number",
+      "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+    }, {
+      "id": "sjbXH",
+      "name": "循环获取ck",
+      "val": "1",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "sjbTXTX",
+      "name": "txtx",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "sjbSC",
+      "name": "sc",
+      "val": "0",
+      "type": "number",
+      "desc": "0关闭，1打开，默认关闭"
+    }, {
+      "id": "sjbnotifyttt",
+      "name": "推送控制",
+      "val": "1",
+      "type": "number",
+      "desc": "0关闭，1推送,默认12点以及23点推送"
+    }, {
+      "id": "sjbnotifyInterval",
+      "name": "通知控制",
+      "val": "2",
+      "type": "number",
+      "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+    }, {
+      "id": "sjbMinutes",
+      "name": "推送-通知 分钟控制",
+      "val": "10",
+      "type": "number",
+      "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+    }],
+    "repo": "https://raw.githubusercontent.com/shitou12/Scripts-1/master/sjb.js",
+    "icons": ["https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi.png","https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi.png"],
+    "script": "https://raw.githubusercontent.com/shitou12/Scripts-1/master/sjb.js",
+    "icon": "https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg"
+  }]
+}
+
